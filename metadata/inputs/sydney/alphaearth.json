@@ -1,0 +1,43 @@
+{
+  "city": "sydney",
+  "year": 2024,
+  "input_zarr": "data/raw/alphaearth/sydney/Sydney_2024AEF_2024.zarr",
+  "output_tif": "data/raw/alphaearth/sydney/Sydney_2024AEF.tif",
+  "source": "aef-download Source Cooperative AlphaEarth Foundations mosaic",
+  "zarr_attrs": {
+    "year": 2024,
+    "time_index": 7,
+    "boundary_source": "data/raw/boundaries/sydney.geojson",
+    "bbox": [
+      150.260825,
+      -34.1732416,
+      151.343898,
+      -33.3641864
+    ],
+    "feature_index": 0,
+    "region_name": "sydney",
+    "mask_boundary": false,
+    "dequantized": true,
+    "source": "s3://us-west-2.opendata.source.coop/tge-labs/aef-mosaic/",
+    "zarr_bucket": "us-west-2.opendata.source.coop",
+    "zarr_prefix": "tge-labs/aef-mosaic/",
+    "region": "us-west-2"
+  },
+  "count": 64,
+  "width": 12058,
+  "height": 9007,
+  "crs": "EPSG:4326",
+  "transform": [
+    8.983111746374561e-05,
+    0.0,
+    150.2607797340999,
+    0.0,
+    -8.983111749216732e-05,
+    -33.36415093307727,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "dtype": "float32",
+  "nodata": null
+}

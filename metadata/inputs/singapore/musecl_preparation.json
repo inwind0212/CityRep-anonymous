@@ -1,0 +1,27 @@
+{
+  "city": "singapore",
+  "h3_res": 8,
+  "manifest_input": "data/processed/street_view/mapillary/singapore/manifest.parquet",
+  "poi_input": "data/processed/poi/sppe/singapore/singapore_foursquare_primary_second.gpkg",
+  "sampled_manifest": "data/processed/musecl/singapore/sampled_manifest_h3r8_max10.parquet",
+  "regions": "data/processed/musecl/singapore/regions_h3r8.parquet",
+  "poi_type_matrix": "data/processed/musecl/singapore/poi_type_matrix_h3r8.parquet",
+  "street_triplets": "data/processed/musecl/singapore/streetview_triplets_h3r8.parquet",
+  "remote_triplets": "data/processed/musecl/singapore/remote_triplets_h3r8.parquet",
+  "n_regions": 690,
+  "n_sampled_images": 6688,
+  "n_street_triplets": 6688,
+  "n_remote_triplets": 2760,
+  "max_images_per_h3": 10,
+  "sampling_strategy": "temporal_priority",
+  "priority_years": [
+    2024,
+    2023
+  ],
+  "min_images_per_region": 1,
+  "min_poi_per_region": 1,
+  "street_similarity_proxy": "cosine(log1p(leaf_class_counts)-normalized + log_poi_count)",
+  "remote_similarity_proxy": "inverse_euclidean(leaf_class_counts)",
+  "mobility_replacement": "POI-type activity proxy",
+  "seed": 42
+}

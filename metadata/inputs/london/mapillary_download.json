@@ -1,0 +1,14 @@
+{
+  "city": "london",
+  "boundary": null,
+  "bbox": null,
+  "image_type": "flat",
+  "n_metadata_images": 956438,
+  "n_selected_images": 956438,
+  "download_images": true,
+  "image_res": 1024,
+  "n_downloaded_images": 955767,
+  "n_failed_downloads": 671,
+  "metadata_parquet": "data/raw/street_view/mapillary/london/metadata.parquet",
+  "selected_parquet": "data/raw/street_view/mapillary/london/metadata_selected.parquet"
+}

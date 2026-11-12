@@ -1,0 +1,7 @@
+{
+  "city": "cape_town",
+  "snapshot_date": "2025-02-06",
+  "count": 45512,
+  "boundary_path": "data/raw/boundaries/cape_town.geojson",
+  "parquet_path": "data/raw/poi/foursquare/cape_town/fsq_os_places_2025-02-06.parquet"
+}

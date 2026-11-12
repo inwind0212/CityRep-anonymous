@@ -1,0 +1,19 @@
+{
+  "city": "singapore",
+  "query": "__local_singapore_land__",
+  "source": "Singapore local planning-area no-sea boundary",
+  "response": {
+    "items": [
+      {
+        "display_name": "Singapore planning areas land boundary, no sea, 2025",
+        "osm_id": null,
+        "osm_type": "local",
+        "place_id": null,
+        "place_rank": null,
+        "class": "boundary",
+        "type": "land"
+      }
+    ],
+    "kept_largest_polygon_only": true
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "city": "cape_town",
+  "year": 2024,
+  "source": "Source Cooperative tge-labs/aef AlphaEarth Foundations annual COGs",
+  "source_index_url": "https://data.source.coop/tge-labs/aef/v1/annual/aef_index.parquet",
+  "boundary": "data/raw/boundaries/cape_town.geojson",
+  "output": "data/raw/alphaearth/cape_town/alphaearth_2024.tif",
+  "output_crs": "EPSG:4326",
+  "output_transform": [
+    8.983111749910169e-05,
+    0.0,
+    18.30722,
+    0.0,
+    -8.983111749910169e-05,
+    -33.471276,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "output_width": 7772,
+  "output_height": 9875,
+  "output_count": 64,
+  "output_dtype": "float32",
+  "resolution_deg": 8.983111749910169e-05,
+  "bounds": [
+    18.30722,
+    -34.35834,
+    19.0053382,
+    -33.471276
+  ],
+  "tile_count": 4,
+  "tiles": [
+    {
+      "fid": 248643,
+      "utm_zone": "34S",
+      "crs": "EPSG:32734",
+      "url": "data/raw/alphaearth/cape_town/tiles/248643.tiff",
+      "window": {
+        "row_off": 5934,
+        "col_off": 0,
+        "height": 3941,
+        "width": 346
+      }
+    },
+    {
+      "fid": 248644,
+      "utm_zone": "34S",
+      "crs": "EPSG:32734",
+      "url": "data/raw/alphaearth/cape_town/tiles/248644.tiff",
+      "window": {
+        "row_off": 0,
+        "col_off": 0,
+        "height": 6184,
+        "width": 598
+      }
+    },
+    {
+      "fid": 248691,
+      "utm_zone": "34S",
+      "crs": "EPSG:32734",
+      "url": "data/raw/alphaearth/cape_town/tiles/248691.tiff",
+      "window": {
+        "row_off": 6183,
+        "col_off": 84,
+        "height": 3692,
+        "width": 7688
+      }
+    },
+    {
+      "fid": 248692,
+      "utm_zone": "34S",
+      "crs": "EPSG:32734",
+      "url": "data/raw/alphaearth/cape_town/tiles/248692.tiff",
+      "window": {
+        "row_off": 0,
+        "col_off": 345,
+        "height": 6362,
+        "width": 7427
+      }
+    }
+  ],
+  "value_transform": "sign(x) * (x / 127.5)^2 for int8 source values; source nodata -128 is written as zero vector.",
+  "attribution": "The AlphaEarth Foundations Satellite Embedding dataset is produced by Google and Google DeepMind."
+}

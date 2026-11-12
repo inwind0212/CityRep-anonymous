@@ -1,0 +1,14 @@
+{
+  "city": "mumbai",
+  "boundary": null,
+  "bbox": null,
+  "image_type": "flat",
+  "n_metadata_images": 107355,
+  "n_selected_images": 107355,
+  "download_images": true,
+  "image_res": 1024,
+  "n_downloaded_images": 107352,
+  "n_failed_downloads": 3,
+  "metadata_parquet": "data/raw/street_view/mapillary/mumbai/metadata.parquet",
+  "selected_parquet": "data/raw/street_view/mapillary/mumbai/metadata_selected.parquet"
+}

@@ -1,0 +1,7 @@
+{
+  "city": "london",
+  "snapshot_date": "2025-02-06",
+  "count": 598912,
+  "boundary_path": "data/raw/boundaries/london.geojson",
+  "parquet_path": "data/raw/poi/foursquare/london/fsq_os_places_2025-02-06.parquet"
+}

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Evaluation outputs
+results/
+
+# Downloaded or generated data
+downloads/
+data/raw/
+data/processed/
+outputs/
+logs/
+baselines/artifacts/*
+!baselines/artifacts/README.md
+data/road_density/
+data/worldpop/
+data/external/

@@ -1,0 +1,48 @@
+{
+  "city": "jakarta",
+  "year": 2024,
+  "source": "Source Cooperative tge-labs/aef AlphaEarth Foundations annual COGs",
+  "source_index_url": "https://data.source.coop/tge-labs/aef/v1/annual/aef_index.parquet",
+  "boundary": "data/raw/boundaries/jakarta.geojson",
+  "output": "data/raw/alphaearth/jakarta/alphaearth_2024.tif",
+  "output_crs": "EPSG:4326",
+  "output_transform": [
+    8.983111749910169e-05,
+    0.0,
+    106.685589,
+    0.0,
+    -8.983111749910169e-05,
+    -6.0891749,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "output_width": 3211,
+  "output_height": 3176,
+  "output_count": 64,
+  "output_dtype": "float32",
+  "resolution_deg": 8.983111749910169e-05,
+  "bounds": [
+    106.685589,
+    -6.3744575,
+    106.973975,
+    -6.0891749
+  ],
+  "tile_count": 1,
+  "tiles": [
+    {
+      "fid": 269658,
+      "utm_zone": "48S",
+      "crs": "EPSG:32748",
+      "url": "xid8mwf15fuy6c7po-0000008192-0000000000.vrt",
+      "window": {
+        "row_off": 0,
+        "col_off": 0,
+        "height": 3176,
+        "width": 3211
+      }
+    }
+  ],
+  "value_transform": "sign(x) * (x / 127.5)^2 for int8 source values; source nodata -128 is written as zero vector.",
+  "attribution": "The AlphaEarth Foundations Satellite Embedding dataset is produced by Google and Google DeepMind."
+}

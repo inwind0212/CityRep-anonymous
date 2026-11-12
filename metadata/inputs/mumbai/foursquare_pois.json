@@ -1,0 +1,7 @@
+{
+  "city": "mumbai",
+  "snapshot_date": "2025-02-06",
+  "count": 146517,
+  "boundary_path": "data/raw/boundaries/mumbai.geojson",
+  "parquet_path": "data/raw/poi/foursquare/mumbai/fsq_os_places_2025-02-06.parquet"
+}

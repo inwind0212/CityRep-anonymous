@@ -1,0 +1,14 @@
+{
+  "city": "jakarta",
+  "boundary": "data/raw/boundaries/jakarta.geojson",
+  "bbox": null,
+  "image_type": "flat",
+  "n_metadata_images": 3430634,
+  "n_selected_images": 3430634,
+  "download_images": false,
+  "image_res": 1024,
+  "n_downloaded_images": 0,
+  "n_failed_downloads": 0,
+  "metadata_parquet": "data/raw/street_view/mapillary/jakarta/metadata.parquet",
+  "selected_parquet": "data/raw/street_view/mapillary/jakarta/metadata_selected.parquet"
+}

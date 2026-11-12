@@ -1,0 +1,19 @@
+{
+  "city": "nairobi",
+  "query": "Nairobi, Kenya",
+  "source": "OpenStreetMap Nominatim",
+  "response": {
+    "items": [
+      {
+        "display_name": "Nairobi, Kenya",
+        "osm_id": 9185096,
+        "osm_type": "relation",
+        "place_id": 415983401,
+        "place_rank": 16,
+        "class": null,
+        "type": "city"
+      }
+    ],
+    "kept_largest_polygon_only": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "city": "mumbai",
+  "regions": "data/processed/musecl/mumbai/regions_h3r8.parquet",
+  "run_dir": "data/raw/remote_sensing/google_maps_static/mumbai/h3r8_google_static_satellite_z17_640x640_x2",
+  "manifest": "data/raw/remote_sensing/google_maps_static/mumbai/h3r8_google_static_satellite_z17_640x640_x2/manifest.parquet",
+  "n_regions_requested": 432,
+  "n_downloaded_or_existing": 432,
+  "n_errors": 0,
+  "h3_res": 8,
+  "zoom": 17,
+  "size": "640x640",
+  "scale": 2,
+  "format": "jpg",
+  "maptype": "satellite",
+  "source": "Google Maps Static API satellite"
+}

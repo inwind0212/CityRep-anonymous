@@ -1,0 +1,18 @@
+{
+  "city": "cape_town",
+  "manifest": "data/processed/street_view/mapillary/cape_town/manifest.parquet",
+  "out": "data/processed/street_view/mapillary/cape_town/manifest_h3r8_latestyear_max10.parquet",
+  "h3_res": 8,
+  "max_per_h3": 10,
+  "seed": 42,
+  "sampling_strategy": "temporal_priority",
+  "priority_years": [
+    2024,
+    2023
+  ],
+  "n_input_images": 452456,
+  "n_output_images": 16986,
+  "n_h3_cells_output": 1726,
+  "per_h3_min": 1,
+  "per_h3_max": 10
+}

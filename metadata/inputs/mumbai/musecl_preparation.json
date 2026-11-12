@@ -1,0 +1,27 @@
+{
+  "city": "mumbai",
+  "h3_res": 8,
+  "manifest_input": "data/processed/street_view/mapillary/mumbai/manifest.parquet",
+  "poi_input": "data/processed/poi/sppe/mumbai/mumbai_foursquare_primary_second.gpkg",
+  "sampled_manifest": "data/processed/musecl/mumbai/sampled_manifest_h3r8_max10.parquet",
+  "regions": "data/processed/musecl/mumbai/regions_h3r8.parquet",
+  "poi_type_matrix": "data/processed/musecl/mumbai/poi_type_matrix_h3r8.parquet",
+  "street_triplets": "data/processed/musecl/mumbai/streetview_triplets_h3r8.parquet",
+  "remote_triplets": "data/processed/musecl/mumbai/remote_triplets_h3r8.parquet",
+  "n_regions": 432,
+  "n_sampled_images": 4082,
+  "n_street_triplets": 4082,
+  "n_remote_triplets": 1728,
+  "max_images_per_h3": 10,
+  "sampling_strategy": "temporal_priority",
+  "priority_years": [
+    2024,
+    2023
+  ],
+  "min_images_per_region": 1,
+  "min_poi_per_region": 1,
+  "street_similarity_proxy": "cosine(log1p(leaf_class_counts)-normalized + log_poi_count)",
+  "remote_similarity_proxy": "inverse_euclidean(leaf_class_counts)",
+  "mobility_replacement": "POI-type activity proxy",
+  "seed": 42
+}

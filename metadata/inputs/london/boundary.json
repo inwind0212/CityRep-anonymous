@@ -1,0 +1,19 @@
+{
+  "city": "london",
+  "query": "Greater London, England, United Kingdom",
+  "source": "OpenStreetMap Nominatim",
+  "response": {
+    "items": [
+      {
+        "display_name": "Greater London, England, United Kingdom",
+        "osm_id": 175342,
+        "osm_type": "relation",
+        "place_id": 277493287,
+        "place_rank": 10,
+        "class": null,
+        "type": "administrative"
+      }
+    ],
+    "kept_largest_polygon_only": false
+  }
+}

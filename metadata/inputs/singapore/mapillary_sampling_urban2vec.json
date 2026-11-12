@@ -1,0 +1,15 @@
+{
+  "city": "singapore",
+  "manifest": "data/processed/street_view/mapillary/singapore/manifest.parquet",
+  "out": "data/processed/street_view/mapillary/singapore/manifest_h3r8_latestyear_max10.parquet",
+  "h3_res": 8,
+  "max_per_h3": 10,
+  "seed": 42,
+  "sampling_strategy": "temporal_priority",
+  "priority_years": [],
+  "n_input_images": 1077047,
+  "n_output_images": 6734,
+  "n_h3_cells_output": 699,
+  "per_h3_min": 1,
+  "per_h3_max": 10
+}

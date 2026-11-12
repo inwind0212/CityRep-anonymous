@@ -1,0 +1,27 @@
+{
+  "city": "london",
+  "h3_res": 8,
+  "manifest_input": "data/processed/street_view/mapillary/london/manifest.parquet",
+  "poi_input": "data/processed/poi/sppe/london/london_foursquare_primary_second.gpkg",
+  "sampled_manifest": "data/processed/musecl/london/sampled_manifest_h3r8_max10.parquet",
+  "regions": "data/processed/musecl/london/regions_h3r8.parquet",
+  "poi_type_matrix": "data/processed/musecl/london/poi_type_matrix_h3r8.parquet",
+  "street_triplets": "data/processed/musecl/london/streetview_triplets_h3r8.parquet",
+  "remote_triplets": "data/processed/musecl/london/remote_triplets_h3r8.parquet",
+  "n_regions": 1880,
+  "n_sampled_images": 18351,
+  "n_street_triplets": 18351,
+  "n_remote_triplets": 7520,
+  "max_images_per_h3": 10,
+  "sampling_strategy": "temporal_priority",
+  "priority_years": [
+    2024,
+    2023
+  ],
+  "min_images_per_region": 1,
+  "min_poi_per_region": 1,
+  "street_similarity_proxy": "cosine(log1p(leaf_class_counts)-normalized + log_poi_count)",
+  "remote_similarity_proxy": "inverse_euclidean(leaf_class_counts)",
+  "mobility_replacement": "POI-type activity proxy",
+  "seed": 42
+}

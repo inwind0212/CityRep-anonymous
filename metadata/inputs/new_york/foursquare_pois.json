@@ -1,0 +1,7 @@
+{
+  "city": "new_york",
+  "snapshot_date": "2025-02-06",
+  "count": 672677,
+  "boundary_path": "data/raw/boundaries/new_york.geojson",
+  "parquet_path": "data/raw/poi/foursquare/new_york/fsq_os_places_2025-02-06.parquet"
+}

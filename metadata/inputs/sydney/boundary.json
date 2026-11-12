@@ -1,0 +1,19 @@
+{
+  "city": "sydney",
+  "query": "Sydney, New South Wales, Australia",
+  "source": "OpenStreetMap Nominatim",
+  "response": {
+    "items": [
+      {
+        "display_name": "Sydney, New South Wales, Australia",
+        "osm_id": 5750005,
+        "osm_type": "relation",
+        "place_id": 424474266,
+        "place_rank": 16,
+        "class": null,
+        "type": "city"
+      }
+    ],
+    "kept_largest_polygon_only": false
+  }
+}

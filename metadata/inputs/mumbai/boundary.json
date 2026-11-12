@@ -1,0 +1,31 @@
+{
+  "city": "mumbai",
+  "query": [
+    "Mumbai City District, Maharashtra, India",
+    "Mumbai Suburban District, Maharashtra, India"
+  ],
+  "source": "OpenStreetMap Nominatim",
+  "response": {
+    "items": [
+      {
+        "display_name": "Mumbai City District, Maharashtra, India",
+        "osm_id": 7964376,
+        "osm_type": "relation",
+        "place_id": 418269073,
+        "place_rank": 10,
+        "class": null,
+        "type": "administrative"
+      },
+      {
+        "display_name": "Mumbai Suburban District, Maharashtra, India",
+        "osm_id": 7964375,
+        "osm_type": "relation",
+        "place_id": 418430281,
+        "place_rank": 10,
+        "class": null,
+        "type": "administrative"
+      }
+    ],
+    "kept_largest_polygon_only": false
+  }
+}

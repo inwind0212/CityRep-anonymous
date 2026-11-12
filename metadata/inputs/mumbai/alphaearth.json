@@ -1,0 +1,60 @@
+{
+  "city": "mumbai",
+  "year": 2024,
+  "source": "Source Cooperative tge-labs/aef AlphaEarth Foundations annual COGs",
+  "source_index_url": "https://data.source.coop/tge-labs/aef/v1/annual/aef_index.parquet",
+  "boundary": "data/raw/boundaries/mumbai.geojson",
+  "output": "data/raw/alphaearth/mumbai/alphaearth_2024.tif",
+  "output_crs": "EPSG:4326",
+  "output_transform": [
+    8.983111749910169e-05,
+    0.0,
+    72.7732289,
+    0.0,
+    -8.983111749910169e-05,
+    19.2694771,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "output_width": 2322,
+  "output_height": 4201,
+  "output_count": 64,
+  "output_dtype": "float32",
+  "resolution_deg": 8.983111749910169e-05,
+  "bounds": [
+    72.7732289,
+    18.8921596,
+    72.9817485,
+    19.2694771
+  ],
+  "tile_count": 2,
+  "tiles": [
+    {
+      "fid": 142421,
+      "utm_zone": "43N",
+      "crs": "EPSG:32643",
+      "url": "xrel0xw9ezr76t4j5-0000008192-0000008192.vrt",
+      "window": {
+        "row_off": 146,
+        "col_off": 0,
+        "height": 4055,
+        "width": 2322
+      }
+    },
+    {
+      "fid": 142422,
+      "utm_zone": "43N",
+      "crs": "EPSG:32643",
+      "url": "x800tk28ylnrhgz55-0000000000-0000008192.vrt",
+      "window": {
+        "row_off": 0,
+        "col_off": 0,
+        "height": 240,
+        "width": 2322
+      }
+    }
+  ],
+  "value_transform": "sign(x) * (x / 127.5)^2 for int8 source values; source nodata -128 is written as zero vector.",
+  "attribution": "The AlphaEarth Foundations Satellite Embedding dataset is produced by Google and Google DeepMind."
+}

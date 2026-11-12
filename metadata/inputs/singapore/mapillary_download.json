@@ -1,0 +1,14 @@
+{
+  "city": "singapore",
+  "boundary": null,
+  "bbox": null,
+  "image_type": "flat",
+  "n_metadata_images": 1077136,
+  "n_selected_images": 1077136,
+  "download_images": true,
+  "image_res": 1024,
+  "n_downloaded_images": 1077047,
+  "n_failed_downloads": 89,
+  "metadata_parquet": "data/raw/street_view/mapillary/singapore/metadata.parquet",
+  "selected_parquet": "data/raw/street_view/mapillary/singapore/metadata_selected.parquet"
+}

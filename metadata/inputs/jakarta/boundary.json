@@ -1,0 +1,61 @@
+{
+  "city": "jakarta",
+  "query": [
+    "Jakarta Barat, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "Jakarta Selatan, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "Jakarta Timur, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "Jakarta Utara, Daerah Khusus Ibukota Jakarta, Indonesia"
+  ],
+  "source": "OpenStreetMap Nominatim",
+  "response": {
+    "items": [
+      {
+        "display_name": "Jakarta Barat, Daerah Khusus Ibukota Jakarta, Jawa, Indonesia",
+        "osm_id": 7626001,
+        "osm_type": "relation",
+        "place_id": 26374914,
+        "place_rank": 12,
+        "class": null,
+        "type": "administrative"
+      },
+      {
+        "display_name": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Jawa, Indonesia",
+        "osm_id": 7625977,
+        "osm_type": "relation",
+        "place_id": 26435451,
+        "place_rank": 12,
+        "class": null,
+        "type": "administrative"
+      },
+      {
+        "display_name": "Jakarta Selatan, Daerah Khusus Ibukota Jakarta, Jawa, Indonesia",
+        "osm_id": 5802438,
+        "osm_type": "relation",
+        "place_id": 26584699,
+        "place_rank": 12,
+        "class": null,
+        "type": "administrative"
+      },
+      {
+        "display_name": "Jakarta Timur, Daerah Khusus Ibukota Jakarta, Jawa, Indonesia",
+        "osm_id": 5802441,
+        "osm_type": "relation",
+        "place_id": 26262934,
+        "place_rank": 12,
+        "class": null,
+        "type": "administrative"
+      },
+      {
+        "display_name": "Jakarta Utara, Daerah Khusus Ibukota Jakarta, Jawa, Indonesia",
+        "osm_id": 7626002,
+        "osm_type": "relation",
+        "place_id": 26430452,
+        "place_rank": 12,
+        "class": null,
+        "type": "administrative"
+      }
+    ],
+    "kept_largest_polygon_only": true
+  }
+}

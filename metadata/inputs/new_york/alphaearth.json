@@ -1,0 +1,43 @@
+{
+  "city": "new_york",
+  "year": 2024,
+  "input_zarr": "data/raw/alphaearth/new_york/New_York_2024AEF_2024.zarr",
+  "output_tif": "data/raw/alphaearth/new_york/New_York_2024AEF.tif",
+  "source": "aef-download Source Cooperative AlphaEarth Foundations mosaic",
+  "zarr_attrs": {
+    "year": 2024,
+    "time_index": 7,
+    "boundary_source": "data/raw/boundaries/new_york.geojson",
+    "bbox": [
+      -74.258843,
+      40.476578,
+      -73.700233,
+      40.91763
+    ],
+    "feature_index": 0,
+    "region_name": "new_york",
+    "mask_boundary": false,
+    "dequantized": true,
+    "source": "s3://us-west-2.opendata.source.coop/tge-labs/aef-mosaic/",
+    "zarr_bucket": "us-west-2.opendata.source.coop",
+    "zarr_prefix": "tge-labs/aef-mosaic/",
+    "region": "us-west-2"
+  },
+  "count": 64,
+  "width": 6220,
+  "height": 4911,
+  "crs": "EPSG:4326",
+  "transform": [
+    8.983111749216732e-05,
+    0.0,
+    -74.2588932806324,
+    0.0,
+    -8.983111749927275e-05,
+    40.91764928251742,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "dtype": "float32",
+  "nodata": null
+}

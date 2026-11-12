@@ -1,0 +1,19 @@
+{
+  "city": "cape_town",
+  "query": "City of Cape Town, Western Cape, South Africa",
+  "source": "OpenStreetMap Nominatim",
+  "response": {
+    "items": [
+      {
+        "display_name": "City of Cape Town, Western Cape, South Africa",
+        "osm_id": 79604,
+        "osm_type": "relation",
+        "place_id": 33877554,
+        "place_rank": 12,
+        "class": null,
+        "type": "administrative"
+      }
+    ],
+    "kept_largest_polygon_only": true
+  }
+}

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urban-benchmark"
+version = "0.2.0"
+description = "CityRep: evaluation of urban representations across cities, tasks, and spatial supports."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "geopandas",
+  "h3",
+  "numpy",
+  "pandas",
+  "pyarrow",
+  "pyproj",
+  "rasterio",
+  "scikit-learn",
+  "shapely",
+  "scipy",
+  "torch",
+  "tqdm",
+  "xarray",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+urban-benchmark = "urban_benchmark.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["urban_benchmark*"]

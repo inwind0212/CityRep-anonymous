@@ -1,0 +1,27 @@
+{
+  "city": "nairobi",
+  "h3_res": 8,
+  "manifest_input": "data/processed/street_view/mapillary/nairobi/manifest.parquet",
+  "poi_input": "data/processed/poi/sppe/nairobi/nairobi_foursquare_primary_second.gpkg",
+  "sampled_manifest": "data/processed/musecl/nairobi/sampled_manifest_h3r8_max10.parquet",
+  "regions": "data/processed/musecl/nairobi/regions_h3r8.parquet",
+  "poi_type_matrix": "data/processed/musecl/nairobi/poi_type_matrix_h3r8.parquet",
+  "street_triplets": "data/processed/musecl/nairobi/streetview_triplets_h3r8.parquet",
+  "remote_triplets": "data/processed/musecl/nairobi/remote_triplets_h3r8.parquet",
+  "n_regions": 489,
+  "n_sampled_images": 4438,
+  "n_street_triplets": 4438,
+  "n_remote_triplets": 1956,
+  "max_images_per_h3": 10,
+  "sampling_strategy": "temporal_priority",
+  "priority_years": [
+    2024,
+    2023
+  ],
+  "min_images_per_region": 1,
+  "min_poi_per_region": 1,
+  "street_similarity_proxy": "cosine(log1p(leaf_class_counts)-normalized + log_poi_count)",
+  "remote_similarity_proxy": "inverse_euclidean(leaf_class_counts)",
+  "mobility_replacement": "POI-type activity proxy",
+  "seed": 42
+}

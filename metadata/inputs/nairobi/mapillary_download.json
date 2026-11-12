@@ -1,0 +1,14 @@
+{
+  "city": "nairobi",
+  "boundary": null,
+  "bbox": null,
+  "image_type": "flat",
+  "n_metadata_images": 84328,
+  "n_selected_images": 84328,
+  "download_images": true,
+  "image_res": 1024,
+  "n_downloaded_images": 84328,
+  "n_failed_downloads": 0,
+  "metadata_parquet": "data/raw/street_view/mapillary/nairobi/metadata.parquet",
+  "selected_parquet": "data/raw/street_view/mapillary/nairobi/metadata_selected.parquet"
+}

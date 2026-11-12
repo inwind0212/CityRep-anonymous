@@ -1,0 +1,19 @@
+{
+  "city": "new_york",
+  "query": "New York City, New York, United States",
+  "source": "OpenStreetMap Nominatim",
+  "response": {
+    "items": [
+      {
+        "display_name": "New York, United States",
+        "osm_id": 175905,
+        "osm_type": "relation",
+        "place_id": 423950695,
+        "place_rank": 10,
+        "class": null,
+        "type": "administrative"
+      }
+    ],
+    "kept_largest_polygon_only": false
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "city": "nairobi",
+  "snapshot_date": "2025-02-06",
+  "count": 30510,
+  "boundary_path": "data/raw/boundaries/nairobi.geojson",
+  "parquet_path": "data/raw/poi/foursquare/nairobi/fsq_os_places_2025-02-06.parquet"
+}

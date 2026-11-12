@@ -1,0 +1,7 @@
+{
+  "city": "sydney",
+  "snapshot_date": "2025-02-06",
+  "count": 269280,
+  "boundary_path": "data/raw/boundaries/sydney.geojson",
+  "parquet_path": "data/raw/poi/foursquare/sydney/fsq_os_places_2025-02-06.parquet"
+}

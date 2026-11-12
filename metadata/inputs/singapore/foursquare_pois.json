@@ -1,0 +1,7 @@
+{
+  "city": "singapore",
+  "snapshot_date": "2025-02-06",
+  "count": 411894,
+  "boundary_path": "data/raw/boundaries/singapore.geojson",
+  "parquet_path": "data/raw/poi/foursquare/singapore/fsq_os_places_2025-02-06.parquet"
+}
